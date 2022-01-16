@@ -8,17 +8,22 @@
         <title>Os personagens de desenhos Rick and Morty</title>
         <link rel="stylesheet" href="style.css">
         <script src="script.js"></script>
+        <script src="script.js" defer></script>
     </head>
     <body>
         <main>
             <section>
                 <img alt="Imagem com o logo Rick and Morty Se tá vivo ou morto?" src="https://www.justwatch.com/images/poster/247615255/s332">
                 <ul id="detalhes-container">
-                    <li>Nome: </li>
-                    <li>Espécie: </li>
-                    <li>Se está vivo ou morto? </li>
+                    <li id="name">Nome: </li>
+                    <li id="especie">Espécie: </li>
+                    <li id="status">Se está vivo ou morto? </li>
+                    <li>Nome: <p id="nome"></p> </li>
+                    <li>Espécie: <p id="especie"></p></li>
+                    <li>Se está vivo ou morto? <p id="status"></p></li>
                 </ul>
                 <button>Conheça três persornagens Rick and Morty</button>
+                <button>Ver conhecer personagens</button>
             </section>
         </main>
     </body>
